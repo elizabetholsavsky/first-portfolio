@@ -1,36 +1,65 @@
 :root {
     --white-ish: rgb(223, 223, 223);
     --people-eater: rgb(168, 75, 211);
-    --just-gray: rgb(42, 41, 43);
+    --purple-rain: rgb(50, 31, 94);
+    --just-gray: rgb(57, 45, 68);
     --darker-gray: rgb(23, 19, 29);
 }
 
 *{
  font-family: 'Rubik', sans-serif;
  color: var(--white-ish);
- background-color: var(--darker-gray);
 }
 
+/* header and nav */
 header {
+    font-size: 2rem;
+    position: fixed;
+    background-color: var(--purple-rain);
+    top: 0;
+    width: 100%;
+}
 
+.nav{
+    margin: 0;
+    width: 95%;
+    margin: auto;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-menu {
+    list-style-type: none;
+    font-variant: all-small-caps;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
 }
 
 main {
+}
+
+.top-section {
+    margin-top: 70px;
+    padding-top: 30px;
+}
+
+.top-section, .section {
+ background-color: var(--darker-gray);
+}
+
+.section-header {
 
 }
 
-.section {
-
-}
-
-.section header {
-
-}
-
-.big project image {
+.big-project-image {
    
 }
 
-.project image {
+.project-image {
   
 }
