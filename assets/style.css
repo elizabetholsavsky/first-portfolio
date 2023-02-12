@@ -1,7 +1,7 @@
 :root {
     --white-ish: rgb(223, 223, 223);
     --people-eater: rgb(168, 75, 211);
-    --purple-rain: rgb(50, 31, 94);
+    --purple-rain: rgb(33, 21, 61);
     --just-gray: rgb(57, 45, 68);
     --darker-gray: rgb(23, 19, 29);
 }
@@ -11,55 +11,126 @@
  color: var(--white-ish);
 }
 
+p {
+    font-size: 1.5rem;
+    text-align: center;
+}
 /* header and nav */
 header {
-    font-size: 2rem;
-    position: fixed;
-    background-color: var(--purple-rain);
     top: 0;
     width: 100%;
+    font-size: 2rem;
+    padding: 15px;
+    position: fixed;
+    background-color: var(--purple-rain);
 }
 
-.nav{
+.nav {
     margin: 0;
-    width: 95%;
+    width:75%;
     margin: auto;
     min-height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .nav-menu {
     list-style-type: none;
     font-variant: all-small-caps;
+    font-size: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 70px;
 }
 
+.nav-menu :hover {
+    color: var(--people-eater);
+}
+
+/* main */
 main {
+    background-color: var(--darker-gray);
 }
 
-.top-section {
-    margin-top: 70px;
-    padding-top: 30px;
+.top-section-header {
+    margin-top: 100px;
+    padding-top: 150px;
 }
 
-.top-section, .section {
- background-color: var(--darker-gray);
+.top-section-header, .section-header {
+    font-size: 2rem;
+    text-align: center;
+    background-color: var(--just-gray);
+    padding: 10px;
 }
 
-.section-header {
+.section {
+    background-color: var(--darker-gray);
+    width:75%;
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
 
+/* about */
+.column-section {
+    background-color: var(--darker-gray);
+    width:75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    width: 250px;
+    border-radius: 250px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about {
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+/* work */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .big-project-image {
-   
+   width: max-content;
 }
 
 .project-image {
-  
+    width: 50%;
 }
+
+.big-project-image, .project-image {
+    border-radius: 30px;
+}
+
+/* contact */
+.contact-list {
+    list-style-type: none;
+    font-variant: all-small-caps;
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 70px;
+    padding: 50px;
+}
+
+/* media queries */
