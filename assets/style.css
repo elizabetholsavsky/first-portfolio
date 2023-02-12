@@ -1,7 +1,7 @@
 :root {
-    --text-color: rgb(223, 223, 223);
+    --text-color: rgb(247, 247, 247);
     --highlight: rgb(247, 255, 139);
-    --nav-color: rgb(33, 21, 61);
+    --nav-color: rgb(78, 56, 99);
     --section-header-color: rgb(57, 45, 68);
     --background-color: rgb(23, 19, 29);
 }
@@ -11,7 +11,6 @@
  color: var(--text-color);
 }
 
-/* scroll */
 html {
     scroll-behavior: smooth;
 }
@@ -39,8 +38,6 @@ h1 {
     justify-content: space-around;
     align-items: center;
 }
-
-
 
 .nav-menu {
     list-style-type: none;
@@ -136,6 +133,14 @@ main {
     margin: 5px;
 }
 
+.big-project-image:hover {
+    border: solid 3px var(--highlight);
+}
+
+.project-image:hover {
+    border: solid 3px var(--highlight);
+}
+
 /* (3) contact */
 .contact-list {
     list-style-type: none;
@@ -152,14 +157,23 @@ main {
     color: var(--highlight);
 }
 
-/* **************MEDIA QUERIES**************** */
+.project-links {
+    text-align: center;
+}
+
+/* project link placeholder */
+.placeholder {
+    color: black;
+    font-size: 5rem;
+    text-align: center;
+    margin: 100px;
+    background-color: white;
+}
+
+/* **************MEDIA QUERIES************** */
 
 /* 992px or smaller */
 @media screen and (max-width: 992px) {
-    .big-project-image, .project-image {
-        width: 100%;
-        }
-
     .nav {
         display: inline;
         text-align: center;
@@ -176,8 +190,29 @@ main {
   
 /* 768px or smaller */
   @media screen and (max-width: 768px) {
-   .contact-list {
+    .contact-list {
         display: inline-block;
         text-align: center;
-    } 
+    }
+
+    .big-project-image, .project-image {
+        width: 75%;
+        }
+  }
+
+  /* 400px or smaller */
+  @media screen and (max-width: 400px) {
+    .profile-img {
+        width: 200px;
+        border: solid 2px var(--text-color);
+        border-radius: 100px;
+    }
+
+    .contact-list {
+        font-size: 1.25rem;
+    }
+
+    .top-section-header {
+        margin-top: 130px;
+             }
   }
