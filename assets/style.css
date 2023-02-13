@@ -26,7 +26,7 @@ header {
 }
 
 h1 {    
-    color: var(--highlight);
+    color: var(--highlight); 
 }
 
 .nav {
@@ -97,7 +97,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .profile-img {
