@@ -1,6 +1,6 @@
 # Portfolio
 
-## Desciption
+## Description
 
 This portolfio showcases important information for potential employers or clients. A concise personal bio, work examples, and contact links are included.
 
