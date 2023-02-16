@@ -1,7 +1,7 @@
 :root {
     --text-color: rgb(247, 247, 247);
     --highlight: rgb(247, 255, 139);
-    --nav-color: rgb(78, 56, 99);
+    --nav-color: rgb(49, 29, 68);
     --section-header-color: rgb(57, 45, 68);
     --background-color: rgb(23, 19, 29);
 }
@@ -21,7 +21,7 @@ header {
     width: 100%;
     font-size: 2.5rem;
     padding: 15px;
-    position: fixed;
+    position: absolute;
     background-color: var(--nav-color);
 }
 
@@ -31,7 +31,7 @@ h1 {
 
 .nav {
     margin: 0;
-    width:75%;
+    width: 75%;
     margin: auto;
     min-height: 70px;
     display: flex;
@@ -42,7 +42,7 @@ h1 {
 .nav-menu {
     list-style-type: none;
     font-variant: all-small-caps;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -118,46 +118,32 @@ main {
 }
 
 /* (2) work */
-.big-project-image {
-   width: 75%;
+.feature-project-card {
+    flex: 0 0 75%;
+    }
+
+.project-card {
+    flex: 0 0 25%;
+    }
+
+.feature-project-card, .project-card {
+    border: solid 2px transparent;
+    margin: 2px;
+    }
+    
+.feature-project-card img, .project-card img {
+    width: 100%;
 }
 
-.project-image {
-    width: 25%;
-}
-
-.big-project-image, .project-image {
-    border: solid 3px var(--text-color);
-    border-radius: 30px;
-    margin: 5px;
-}
-
-.big-project-image:hover {
-    border: solid 3px var(--highlight);
-}
-
-.project-image:hover {
-    border: solid 3px var(--highlight);
-}
-
-/* (3) contact */
-.contact-list {
-    list-style-type: none;
-    font-variant: all-small-caps;
+.project-banner {
+    position: flex;
     font-size: 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-    margin-bottom: 70px;
-}
+    background: var(--section-header-color);
+    padding: 5px;
+  }
 
-.contact-list a:hover {
-    color: var(--highlight);
-}
-
-.project-links {
-    text-align: center;
+.feature-project-card:hover, .project-card:hover {
+    border: solid 3px var(--highlight);
 }
 
 /* project link placeholder */
@@ -167,6 +153,22 @@ main {
     text-align: center;
     margin: 100px;
     background-color: white;
+}
+
+/* (3) contact */
+.contact-list {
+    list-style-type: none;
+    font-variant: all-small-caps;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 70px;
+}
+
+.contact-list a:hover {
+    color: var(--highlight);
 }
 
 /* **************MEDIA QUERIES************** */
@@ -194,8 +196,8 @@ main {
         text-align: center;
     }
 
-    .big-project-image, .project-image {
-        width: 75%;
+    .feature-project-card, .project-card {
+        flex: 0 0 75%;
         }
   }
 
