@@ -1,6 +1,6 @@
 # Portfolio
 
-## Desciption
+## Description
 
 This portolfio showcases important information for potential employers or clients. A concise personal bio, work examples, and contact links are included.
 ![portfolio screenshot](https://user-images.githubusercontent.com/116515976/219264138-36b09192-d17b-4aca-b677-daee1aa6d700.png)
