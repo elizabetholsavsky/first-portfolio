@@ -8,17 +8,9 @@ https://elizabetholsavsky.github.io/portfolio/
 
 ![portfolio screenshot](https://user-images.githubusercontent.com/116515976/219264138-36b09192-d17b-4aca-b677-daee1aa6d700.png)
 
-## Installation
-
-N/A
-
 ## Usage
 
 The user can navigate to the three sections of the webpage (About, Work, and Contact) by using links in the navigation bar located at the top of the page. Project images link to work examples when clicked. Links in the contact section take you to the corresonding websites (Gmail, GitHub, and LinkedIn).
-
-## Credits
-
-N/A
 
 ## License
 
