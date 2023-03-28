@@ -13,6 +13,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: var(--background-color);
 }
 
 /* header and nav */
@@ -20,7 +21,7 @@ header {
     top: 0;
     width: 100%;
     font-size: 2.5rem;
-    padding: 15px;
+    padding: 10px;
     position: absolute;
     background-color: var(--nav-color);
 }
@@ -33,7 +34,7 @@ h1 {
     margin: 0;
     width: 75%;
     margin: auto;
-    min-height: 70px;
+    min-height: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -101,7 +102,7 @@ main {
 
 .profile-img {
     width: 300px;
-    border: solid 2px var(--text-color);
+    border: solid 5px var(--text-color);
     border-radius: 150px;
     justify-content: center;
     text-align: center;
@@ -120,10 +121,12 @@ main {
 /* (2) work */
 .feature-project-card {
     flex: 0 0 75%;
+    margin-bottom: auto;
     }
 
 .project-card {
     flex: 0 0 25%;
+    align-self: flex-end;
     }
 
 .feature-project-card, .project-card {
