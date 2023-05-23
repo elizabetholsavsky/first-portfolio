@@ -6,7 +6,7 @@ This portfolio showcases important information for potential employers or client
 
 https://elizabetholsavsky.github.io/portfolio/
 
-![portfolio](https://user-images.githubusercontent.com/116515976/228104542-4f057047-d7a8-4e48-98b2-e787c166f587.png)
+![portfolio screenshot](https://github.com/elizabetholsavsky/portfolio/assets/116515976/4496d922-16dc-4e44-a83f-139b6c820353)
 
 ## Usage
 
