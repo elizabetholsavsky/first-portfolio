@@ -4,7 +4,7 @@
 
 This portfolio showcases important information for potential employers or clients. A concise personal bio, work examples, and contact links are included.
 
-https://elizabetholsavsky.github.io/portfolio/
+[https://elizabetholsavsky.github.io/first-portfolio/](https://elizabetholsavsky.github.io/first-portfolio/)
 
 ![portfolio screenshot](https://github.com/elizabetholsavsky/portfolio/assets/116515976/4496d922-16dc-4e44-a83f-139b6c820353)
 
