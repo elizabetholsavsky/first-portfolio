@@ -2,11 +2,16 @@
 
 ## Description
 
-This was my very first portfolio created during a coding bootcamp using html and css. Check out [elizabetholsavsky.com](https://elizabetholsavsky.com/) to view my latest portfolio using react and see my growth.
+This was my very first portfolio created during a coding bootcamp using html and css. Check out [elizabetholsavsky.com](https://elizabetholsavsky.com/) ([Repo](https://github.com/elizabetholsavsky/portfolio)) to view my latest portfolio using react and see my growth.
 
 [https://elizabetholsavsky.github.io/first-portfolio/](https://elizabetholsavsky.github.io/first-portfolio/)
 
 ![portfolio screenshot](https://github.com/elizabetholsavsky/portfolio/assets/116515976/4496d922-16dc-4e44-a83f-139b6c820353)
+
+## Table of Contents
+* [Usage](#usage)
+* [License](#license)
+* [Questions](#questions)
 
 ## Usage
 
@@ -14,3 +19,12 @@ The user can navigate to the three sections of the webpage (About, Work, and Con
 
 ## License
 [MIT License](https://opensource.org/licenses/MIT)
+
+## Questions
+
+Contact:
+* Email elizabetholsavsky@gmail.com
+* LinkedIn [https://www.linkedin.com/in/elizabetholsavsky/](https://www.linkedin.com/in/elizabetholsavsky/)
+* Portfolio [https://elizabetholsavsky.com/](https://elizabetholsavsky.com/)
+* Hashnode [https://elizabetholsavsky.hashnode.dev/](https://elizabetholsavsky.hashnode.dev/)
+* Twitter [@elizavsky](https://twitter.com/home)
