@@ -2,7 +2,7 @@
 
 ## Description
 
-This portfolio showcases important information for potential employers or clients. A concise personal bio, work examples, and contact links are included.
+This was my very first portfolio created during a coding bootcamp using html and css. Check out [elizabetholsavsky.com](https://elizabetholsavsky.com/) to view my latest portfolio using react and see my growth.
 
 [https://elizabetholsavsky.github.io/first-portfolio/](https://elizabetholsavsky.github.io/first-portfolio/)
 
