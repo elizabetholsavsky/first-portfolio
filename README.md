@@ -11,7 +11,7 @@ This was my very first portfolio created during a coding bootcamp using html and
 ## Table of Contents
 * [Usage](#usage)
 * [License](#license)
-* [Questions](#questions)
+* [Contact](#contact)
 
 ## Usage
 
@@ -20,9 +20,7 @@ The user can navigate to the three sections of the webpage (About, Work, and Con
 ## License
 [MIT License](https://opensource.org/licenses/MIT)
 
-## Questions
-
-Contact:
+## Contact
 * Email elizabetholsavsky@gmail.com
 * LinkedIn [https://www.linkedin.com/in/elizabetholsavsky/](https://www.linkedin.com/in/elizabetholsavsky/)
 * Portfolio [https://elizabetholsavsky.com/](https://elizabetholsavsky.com/)
