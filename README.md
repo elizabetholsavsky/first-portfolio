@@ -1,14 +1,13 @@
 <div align="center">
 
   # Portfolio
+  [https://elizabetholsavsky.github.io/first-portfolio/](https://elizabetholsavsky.github.io/first-portfolio/)
 
 </div>
 
 ## Description
 
 This was my very first portfolio created during a coding bootcamp using html and css. Check out [elizabetholsavsky.com](https://elizabetholsavsky.com/) ([Repo](https://github.com/elizabetholsavsky/portfolio)) to view my latest portfolio using react and see my growth.
-
-[https://elizabetholsavsky.github.io/first-portfolio/](https://elizabetholsavsky.github.io/first-portfolio/)
 
 ![portfolio screenshot](https://github.com/elizabetholsavsky/portfolio/assets/116515976/4496d922-16dc-4e44-a83f-139b6c820353)
 
