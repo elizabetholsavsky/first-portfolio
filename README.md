@@ -27,5 +27,6 @@ The user can navigate to the three sections of the webpage (About, Work, and Con
 * Email elizabetholsavsky@gmail.com
 * LinkedIn [https://www.linkedin.com/in/elizabetholsavsky/](https://www.linkedin.com/in/elizabetholsavsky/)
 * Portfolio [https://elizabetholsavsky.com/](https://elizabetholsavsky.com/)
-* Hashnode [https://elizabetholsavsky.hashnode.dev/](https://elizabetholsavsky.hashnode.dev/)
+* Hashnode Blog [https://blog.elizabetholsavsky.com/](https://blog.elizabetholsavsky.com/)
 * Twitter [@elizavsky](https://twitter.com/home)
+
